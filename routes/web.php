@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/submission', 'HomeController@identify');
+Route::get('/result/{id}', 'HomeController@result');
+Route::post('/submit', 'HomeController@postSubmit');
