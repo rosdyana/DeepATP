@@ -1,7 +1,7 @@
 @extends('layouts.app') @section('content')
 <div class="wrapper">
   <div class="page-header page-header-small" style="max-height: 440px;">
-    <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/bg.png');">
+    <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/bg.png');">
     </div>
     <div class="container">
       <div class="content-center">
