@@ -12,9 +12,9 @@
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
   <!-- CSS Files -->
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="../assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
-  <link href="../assets/css/demo.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+  <link href="assets/css/demo.css" rel="stylesheet" />
   <!--  Social tags      -->
   <meta name="keywords" content="bootstrap 4, bootstrap 4 uit kit, bootstrap 4 kit, now ui, now ui kit, creative tim, html kit, html css template, web template, bootstrap, bootstrap 4, css3 template, frontend, responsive bootstrap template, bootstrap ui kit, responsive ui kit">
   <meta name="description" content="Start your development with a beautiful Bootstrap 4 UI kit. It is yours Free.">
