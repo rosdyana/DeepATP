@@ -18,7 +18,7 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
           <h5 class="description"> <strong>Please cite!</strong>
-    If you use Deep-Efflux for research, please cite the following paper: xxxx".
+    If you use NAD-binder for research, please cite the following paper: xxxx".
     The preprint is available on <a href="/">xxxx</a>.
     If you have any comments, corrections or questions contact <a href="mailto:tajusemmy@yahoo.com?Subject=[ASK][DeepEfflux]" target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
         </div>
@@ -48,7 +48,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="team-player">
-                <img src="../assets/img/ou.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                <img src="assets/img/ou.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Yu-Yen Ou</h4>
                 <p class="category text-info">Assistant Professor</p>
                 <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
@@ -59,7 +59,7 @@
             </div>
             <div class="col-md-6">
               <div class="team-player">
-                <img src="../assets/img/duong.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                <img src="assets/img/duong.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Nguyen-Trinh Trung-Duong</h4>
                 <p class="category text-info">Research Assistant</p>
                 <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
@@ -70,7 +70,7 @@
             </div>
             <div class="col-md-6">
               <div class="team-player">
-                <img src="../assets/img/khanh.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                <img src="assets/img/khanh.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Nguyen-Quoc-Khanh Le</h4>
                 <p class="category text-info">Research Assistant</p>
                 <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
@@ -81,7 +81,7 @@
             </div>
             <div class="col-md-6">
               <div class="team-player">
-                <img src="../assets/img/ros.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                <img src="assets/img/ros.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Rosdyana Mangir Irawan Kusuma</h4>
                 <p class="category text-info">Research Assistant</p>
                 <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some

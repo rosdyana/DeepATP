@@ -21,7 +21,7 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
           <h5 class="description"> <strong>Please cite!</strong>
-    If you use Deep-Efflux for research, please cite the following paper: xxxx".
+    If you use NAD-binder for research, please cite the following paper: xxxx".
     The preprint is available on <a href="/">xxxx</a>.
     If you have any comments, corrections or questions contact <a href="mailto:tajusemmy@yahoo.com?Subject=[ASK][DeepEfflux]" target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
         </div>
