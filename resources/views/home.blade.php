@@ -5,8 +5,8 @@
     </div>
     <div class="container">
       <div class="content-center">
-        <h1 class="title">Welcome to NAD Binder,</h1>
-        <h2 class="title">a webserver to identify nad binding site in protein sequence.</h2>
+        <h1 class="title">Welcome to DeepNAD-Binder,</h1>
+        <h2 class="title">a webserver to predict NAD binding sites in electron transport porteins using 2D CNN and PSSM.</h2>
         <div class="text-center">
           <a href="{{ url('/submission') }}" class="btn btn-info btn-round btn-lg"><i>Submit your proteins</i></a>
         </div>
@@ -18,7 +18,7 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
           <h5 class="description"> <strong>Please cite!</strong>
-    If you use NAD-binder for research, please cite the following paper: xxxx".
+    If you use DeepNAD-binder for research, please cite the following paper: xxxx".
     The preprint is available on <a href="/">xxxx</a>.
     If you have any comments, corrections or questions contact <a href="mailto:tajusemmy@yahoo.com?Subject=[ASK][DeepEfflux]" target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
         </div>
