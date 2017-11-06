@@ -51,10 +51,9 @@
                 <img src="assets/img/ou.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Yu-Yen Ou</h4>
                 <p class="category text-info">Assistant Professor</p>
-                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                <a href="#pablo" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
-                <a href="#pablo" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+                <p class="description">Department of Computer Science and Engineering.</br>Yuan Ze University</br>135 Yuan-Tung Road, Chung-Li, Taiwan 32003, R.O.C.</p>
+                <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
+                <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
               </div>
             </div>
             <div class="col-md-6">
@@ -62,10 +61,9 @@
                 <img src="assets/img/duong.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Nguyen-Trinh Trung-Duong</h4>
                 <p class="category text-info">Research Assistant</p>
-                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                <a href="#pablo" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
-                <a href="#pablo" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+                <p class="description">Department of Computer Science and Engineering.</br>Yuan Ze University</br>135 Yuan-Tung Road, Chung-Li, Taiwan 32003, R.O.C.</p>
+                <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
+                <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
               </div>
             </div>
             <div class="col-md-6">
@@ -73,10 +71,9 @@
                 <img src="assets/img/khanh.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Nguyen-Quoc-Khanh Le</h4>
                 <p class="category text-info">Research Assistant</p>
-                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                <a href="#pablo" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
-                <a href="#pablo" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+                <p class="description">Department of Computer Science and Engineering.</br>Yuan Ze University</br>135 Yuan-Tung Road, Chung-Li, Taiwan 32003, R.O.C.</p>
+                <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
+                <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
               </div>
             </div>
             <div class="col-md-6">
@@ -84,11 +81,10 @@
                 <img src="assets/img/ros.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Rosdyana Mangir Irawan Kusuma</h4>
                 <p class="category text-info">Research Assistant</p>
-                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                <a href="#pablo" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
-                <a href="#pablo" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
-                <a href="#pablo" class="btn btn-info btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
+                <p class="description">Department of Computer Science and Engineering.</br>Yuan Ze University</br>135 Yuan-Tung Road, Chung-Li, Taiwan 32003, R.O.C.</p>
+                <a href="mailto:rosdyana.kusuma@gmail.com" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/rosdyanakusuma/" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+                <a href="http://github.com/rosdyana/" class="btn btn-info btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
               </div>
             </div>
           </div>
