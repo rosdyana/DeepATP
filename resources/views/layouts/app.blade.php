@@ -33,7 +33,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-header">Dropdown Menu</a>
           <a class="dropdown-item" href="{{ url('/submission') }}">Submission</a>
-          <a class="dropdown-item" href="mailto:xx@xx.xx">Contact</a>
+          <a class="dropdown-item" href="mailto:khucnam@yahoo.com">Contact</a>
         </div>
       </div>
       <div class="navbar-translate">
@@ -65,23 +65,26 @@
     </div>
   </nav>
   <!-- End Navbar -->
+  <div class="wrapper">
   @yield('content')
-  <footer class="footer footer-default">
-    <div class="container">
-      <nav>
-        If you have any comments, corrections or questions contact <a href="mailto:xx@xx.xx">Nguyen-Trinh Trung-Duong</a>
-      </nav>
-      <div class="copyright">
-        &copy;
-        <script>
-          document.write(new Date().getFullYear())
-        </script>, Supported by
-        <a href="http://www.yzu.edu.tw/" target="_blank">Yuan Ze University</a>. Coded by 1607B Team.
-      </div>
-    </div>
-  </footer>
+
+
   </div>
 </body>
+<footer class="footer footer-default">
+  <div class="container">
+    <nav>
+      If you have any comments, corrections or questions contact <a href="mailto:khucnam@yahoo.com">Nguyen-Trinh Trung-Duong</a>
+    </nav>
+    <div class="copyright">
+      &copy;
+      <script>
+        document.write(new Date().getFullYear())
+      </script>, Supported by
+      <a href="http://www.yzu.edu.tw/" target="_blank">Yuan Ze University</a>. Coded by 1607B Team.
+    </div>
+  </div>
+</footer>
 <!--   Core JS Files   -->
 <script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="assets/js/core/popper.min.js" type="text/javascript"></script>

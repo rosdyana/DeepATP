@@ -1,5 +1,5 @@
 @extends('layouts.app') @section('content')
-<div class="wrapper">
+
   <div class="page-header page-header-small" style="max-height: 440px;">
     <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/bg.png');">
     </div>
@@ -20,7 +20,7 @@
           <h5 class="description"> <strong>Please cite!</strong>
     If you use DeepNAD-binder for research, please cite the following paper: xxxx".
     The preprint is available on <a href="/">xxxx</a>.
-    If you have any comments, corrections or questions contact <a href="mailto:tajusemmy@yahoo.com?Subject=[ASK][DeepEfflux]" target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
+    If you have any comments, corrections or questions contact <a href="mailto:khucnam@yahoo.com?Subject=[ASK][DeepNAD]" target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
         </div>
       </div>
       <div class="separator separator-info"></div>

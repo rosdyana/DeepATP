@@ -23,7 +23,7 @@
           <h5 class="description"> <strong>Please cite!</strong>
     If you use DeepNAD-binder for research, please cite the following paper: xxxx".
     The preprint is available on <a href="/">xxxx</a>.
-    If you have any comments, corrections or questions contact <a href="mailto:tajusemmy@yahoo.com?Subject=[ASK][DeepEfflux]" target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
+    If you have any comments, corrections or questions contact <a href="mailto:khucnam@yahoo.com?Subject=[ASK][DeepNAD]" target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
         </div>
       </div>
       <div class="row">
