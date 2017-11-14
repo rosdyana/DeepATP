@@ -25,7 +25,7 @@
   <nav class="navbar navbar-expand-lg bg-info fixed-top navbar-transparent " color-on-scroll="100">
     <div class="container">
       <div class="dropdown button-dropdown">
-        <a href="#pablo" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
+        <a href="#" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
                     <span class="button-bar"></span>
                     <span class="button-bar"></span>
                     <span class="button-bar"></span>
