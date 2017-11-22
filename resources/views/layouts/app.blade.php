@@ -12,9 +12,9 @@
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
   <!-- CSS Files -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
-  <link href="assets/css/demo.css" rel="stylesheet" />
+  <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/css/now-ui-kit.css?v=1.1.0') }}" rel="stylesheet">
+  <link href="{{ asset('assets/css/demo.css') }}" rel="stylesheet">
   <!--  Social tags      -->
   <meta name="keywords" content="{{ config('app.keywords') }}">
   <meta name="description" content="{{ config('app.description') }}">
@@ -46,7 +46,7 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
       </div>
-      <div class="collapse navbar-collapse justify-content-end" data-nav-image="../assets/img/blurred-image-1.jpg">
+      <div class="collapse navbar-collapse justify-content-end" data-nav-image="assets/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" rel="tooltip" title="Back to home" data-placement="bottom" href="{{ url('/') }}">
@@ -86,18 +86,18 @@
   </div>
 </footer>
 <!--   Core JS Files   -->
-<script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="{{ asset('assets/js/core/jquery.3.2.1.min.js') }}"></script>
+<script src="{{ asset('assets/js/core/popper.min.js') }}"></script>
+<script src="{{ asset('assets/js/core/bootstrap.min.js') }}"></script>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="assets/js/plugins/bootstrap-switch.js"></script>
+<script src="{{ asset('assets/js/plugins/bootstrap-switch.js') }}"></script>
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<script src="{{ asset('assets/js/plugins/nouislider.min.js') }}"></script>
 <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-<script src="assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="{{ asset('assets/js/plugins/bootstrap-datepicker.js') }}"></script>
 <!-- Share Library etc -->
-<script src="assets/js/plugins/jquery.sharrre.js" type="text/javascript"></script>
+<script src="{{ asset('assets/js/plugins/jquery.sharrre.js') }}"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-<script src="assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+<script src="{{ asset('assets/js/now-ui-kit.js?v=1.1.0') }}"></script>
 
 </html>
