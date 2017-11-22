@@ -28,6 +28,7 @@ class HomeController extends Controller {
                 $content = \Request::get('data');
             }
             $task = [
+                'name' => \Request::get('name'),
                 'email' => \Request::get('email'),
                 'status' => 'queue',
                 'proteins' => '',
@@ -38,15 +39,14 @@ class HomeController extends Controller {
             $arr = explode("{{", $arr);
             array_shift($arr);
             if (count($arr)==0) return redirect('submit')->with('error', 'No fasta found! Please try again!');
-			if (count($arr)>100) return redirect('submit')->with('error', 'Please submit less than 100 proteins!');
+			if (count($arr)>10) return redirect('submit')->with('error', 'Please submit less than 10 proteins!');
             foreach ($arr as $emt) {
                 $pro = explode("}}", $emt);
                 $protein = [
                     'name' => $pro[0],
                     'data' => $pro[1],
-                    'class_a' => '',
-                    'class_b' => '',
-                    'class_c' => ''
+                    'predicted' => '',
+                    'probability' => ''
                 ];
                 $chk = \DB::table('proteins')->whereData($protein['data'])->first();
                 if ($chk == null) {
