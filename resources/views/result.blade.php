@@ -11,7 +11,7 @@
 @section('content')
 <div class="wrapper">
   <div class="page-header page-header-small" style="max-height: 80px;">
-    <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/bg.png');">
+    <div class="page-header-image" data-parallax="true" style="background-image: url('{{ asset('assets/img/bg.png') }}');">
     </div>
   </div>
   <div class="section section-about-us">
@@ -20,7 +20,7 @@
     <div class="row">
       <div class="col-md-12">
         <h1>Result - {{ $task->id }}</h1>
-        <h4>Submitter : {{ $task->email }}</h4>
+        <h4>Submitter : {{ $task->name }}</h4>
         <h4>Date : {{ $task->submit_time }}</h4>
         <div class="panel panel-info">
           <div class="panel-heading">
