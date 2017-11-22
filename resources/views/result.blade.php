@@ -26,18 +26,16 @@
       <td>#</td>
       <td><b>Protein Name</b></td>
       <td><b>Length</b></td>
-      <td><b><span class="label label-primary">Family Class A</span></b></td>
-      <td><b><span class="label label-success">Family Class B</span></b></td>
-      <td><b><span class="label label-info">Family Class C</span></b></td>
+      <td><b><span class="label label-primary">Predicted</span></b></td>
+      <td><b><span class="label label-success">Probability</span></b></td>
     </tr>
     @foreach ($proteins as $emt)
     <tr>
       <td>{{ $loop->index+1 }}</td>
       <td>{{ $emt->name }}</td>
       <td>{{ strlen($emt->data) }}</td>
-      <td>@if ($emt->class_a=='')<span class="label label-default">In Process</span>@else{{$emt->class_a*100}} %@endif</td>
-      <td>@if ($emt->class_a=='')<span class="label label-default">In Process</span>@else{{$emt->class_b*100}} %@endif</td>
-      <td>@if ($emt->class_a=='')<span class="label label-default">In Process</span>@else{{$emt->class_c*100}} %@endif</td>
+      <td>@if ($emt->predicted=='')<span class="label label-default">In Process</span>@else{{$emt->predicted}}@endif</td>
+      <td>@if ($emt->probability=='')<span class="label label-default">In Process</span>@else{{$emt->probability}} %@endif</td>>
     </tr>
     @endforeach
 </table>
