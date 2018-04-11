@@ -2,7 +2,7 @@
 @section('content')
 <div class="wrapper">
     <div class="page-header page-header-small" style="max-height: 80px;">
-        <div class="page-header-image" data-parallax="true" style="background-image: url({{'/assets/img/bg.png' }});">
+        <div class="page-header-image" data-parallax="true" style="background-image: url({{ asset('assets/img/bg.png') }});">
         </div>
     </div>
     <div class="section section-result">
