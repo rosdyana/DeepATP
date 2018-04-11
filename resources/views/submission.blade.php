@@ -44,7 +44,7 @@
                 {{ session('error') }}
               </div>
               @endif
-              <form class="frm-submit" role="form" method="POST" action="{{ url('submit') }}" enctype="multipart/form-data">
+              <form class="frm-submit" role="form" method="POST" action="{{ url('submission') }}" enctype="multipart/form-data">
                 {!! csrf_field() !!}
                 <div class="input-group">
                   <span class="input-group-addon">
