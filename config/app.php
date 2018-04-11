@@ -13,9 +13,7 @@ return [
     |
     */
 
-    'name' => 'DeepNAD-Binder',
-    'description' => 'A web server for prediction of NAD binding sites in electron transport protein using 2D CNN and PSSM.',
-    'keywords' => 'deep learning, prediction, classification, bioinformatic, nad, binding site',
+    'name' => env('APP_NAME', 'Laravel'),
 
     /*
     |--------------------------------------------------------------------------

@@ -32,13 +32,13 @@
                 </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-header">Dropdown Menu</a>
-          <a class="dropdown-item" href="{{ url('/submission') }}">Submission</a>
-          <a class="dropdown-item" href="mailto:khucnam@yahoo.com">Contact</a>
+          <a class="dropdown-item" href="{{ url('submission') }}">Submission</a>
+          <a class="dropdown-item" href="{{ url('contact') }}">Contact</a>
         </div>
       </div>
       <div class="navbar-translate">
         <a class="navbar-brand" href="{{ url('/') }}">
-                    DeepNAD-Binder
+        <i class="fa fa-codepen"></i>DeepNAD-Binder
                 </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
@@ -55,9 +55,15 @@
                         </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Submit your protein sequences" data-placement="bottom" href="{{ url('/submission') }}">
+            <a class="nav-link" rel="tooltip" title="Submit your protein sequences" data-placement="bottom" href="{{ url('submission') }}">
                             <i class="fa fa-check-square"></i>
                             <p>SUBMISSION</p>
+                        </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Feel free to ask us" data-placement="bottom" href="{{ url('contact') }}">
+                            <i class="fa fa-envelope"></i>
+                            <p>CONTACT</p>
                         </a>
           </li>
         </ul>

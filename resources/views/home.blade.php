@@ -1,4 +1,4 @@
-@extends('layouts.app') @section('content')
+@extends('layout') @section('content')
 
   <div class="page-header page-header-small" style="max-height: 440px;">
     <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/bg.png');">
@@ -8,7 +8,7 @@
         <h1 class="title">Welcome to DeepNAD-Binder,</h1>
         <h2 class="title">a webserver to predict NAD binding sites in electron transport porteins using 2D CNN and PSSM.</h2>
         <div class="text-center">
-          <a href="{{ url('/submission') }}" class="btn btn-info btn-round btn-lg"><i>Submit your proteins</i></a>
+          <a href="{{ url('submission') }}" class="btn btn-info btn-round btn-lg"><i>Submit your proteins</i></a>
         </div>
       </div>
     </div>
