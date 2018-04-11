@@ -39,8 +39,8 @@ class Prediction implements ShouldQueue
             \File::put('data/data.fasta',$task->name.PHP_EOL.$task->sequence);
             passthru('blastpgp -a 4 -i data/data.fasta -d /home/semmy/blastLinux/blast-2.2.26/db/nr -j 2 -Q data/data.pssm');
             // passthru('psiblast -num_iterations '.env('PSSM_NUM_ITERATIONS',2).' -num_threads '.env('PSSM_NUM_THREAD',4).' -db '.env('PSSM_DB_PATH').' -in_msa data.fasta -out_ascii_pssm data.pssm');
-            passthru('py pssm_generated_csv.py data/data.pssm data/data.csv');
-            passthru('py deepgtp_load_model.py deepgtp_model.json deepgtp_model.h5 data/data.csv data/data.out');
+            passthru('python pssm_generated_csv.py data/data.pssm data/data.csv');
+            passthru('python deepgtp_load_model.py deepgtp_model.json deepgtp_model.h5 data/data.csv data/data.out');
 
             $task->result = str_replace(array("\r\n", "\n", "\r"),'',\File::get('data/data.out'));
             $task->status = 'Finished';
