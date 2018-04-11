@@ -14,15 +14,8 @@
     </div>
   </div>
 </div>
-<div class="section section-about-us">
+<div class="section section-home">
   <div class="container">
-    <div class="row">
-      <div class="col-md-8 ml-auto mr-auto text-center">
-        <h5 class="description"> <strong>Please cite!</strong> If you use DeepNAD-binder for research, please cite the following paper: xxxx". The
-          preprint is available on <a href="/">xxxx</a>. If you have any comments, corrections or questions contact <a href="mailto:khucnam@yahoo.com?Subject=[ASK][DeepNAD]"
-            target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
-      </div>
-    </div>
     <div class="separator separator-info"></div>
     <div class="section-story-overview">
       <div class="row">
