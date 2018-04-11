@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout') 
 @section('js')
 <script type="text/javascript">
   $('.frm-submit').submit(function(event) {
@@ -8,8 +8,10 @@
       event.preventDefault();
     }
   });
+
 </script>
 @endsection
+ 
 @section('content')
 <div class="wrapper">
   <div class="page-header page-header-small" style="max-height: 80px;">
@@ -20,10 +22,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
-          <h5 class="description"> <strong>Please cite!</strong>
-    If you use DeepNAD-binder for research, please cite the following paper: xxxx".
-    The preprint is available on <a href="/">xxxx</a>.
-    If you have any comments, corrections or questions contact <a href="mailto:khucnam@yahoo.com?Subject=[ASK][DeepNAD]" target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
+          <h5 class="description"> <strong>Please cite!</strong> If you use DeepNAD-binder for research, please cite the following paper: xxxx". The
+            preprint is available on <a href="/">xxxx</a>. If you have any comments, corrections or questions contact
+            <a href="mailto:khucnam@yahoo.com?Subject=[ASK][DeepNAD]" target="_top">Nguyen-Trinh Trung-Duong</a>.</h5>
         </div>
       </div>
       <div class="row">
@@ -31,8 +32,10 @@
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title">Submission</h3>
-              <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world,
-                it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
+              <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will
+                continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming
+                regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year,
+                for all kinds of natural reasons, there’s huge variety of the state of the ice.
               </p>
             </div>
             <div class="panel-body">
@@ -69,7 +72,7 @@
               </form>
               <br>
               <p><b>Sample fasta Sequence(s)</b></p>
-<pre>
+              <pre>
 <b>&gt;sp|P51149|RAB7A_HUMAN Ras-related protein Rab-7a OS=Homo sapiens GN=RAB7A PE=1 SV=1
 MTSRKKVLLKVIILGDSGVGKTSLMNQYVNKKFSNQYKATIGADFLTKEVMVDDRLVTMQ
 IWDTAGQERFQSLGVAFYRGADCCVLVFDVTAPNTFKTLDSWRDEFLIQASPRDPENFPF
@@ -87,4 +90,4 @@ MSDRRENDMSPSNNVVPIHVPPTTENKPKVQCCQNI
       </div>
     </div>
   </div>
-  @endsection
+@endsection
