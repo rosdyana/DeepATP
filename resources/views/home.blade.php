@@ -52,8 +52,8 @@
               <p class="category text-info">Assistant Professor</p>
               <p class="description">Department of Computer Science and Engineering.</br>Yuan Ze University</br>135 Yuan-Tung Road, Chung-Li, Taiwan
                 32003, R.O.C.</p>
-              <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
-              <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+              <a href="mailto:yienou@gmail.com " class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
+              <a href="http://fb.com/yienou" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
             </div>
           </div>
           <div class="col-md-6">
@@ -63,8 +63,8 @@
               <p class="category text-info">Research Assistant</p>
               <p class="description">Department of Computer Science and Engineering.</br>Yuan Ze University</br>135 Yuan-Tung Road, Chung-Li, Taiwan
                 32003, R.O.C.</p>
-              <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
-              <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+              <a href="mailto:khucnam@yahoo.com" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
+              <a href="http://fb.com/nguyentrinh.duong" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
             </div>
           </div>
           <div class="col-md-6">
@@ -74,8 +74,8 @@
               <p class="category text-info">Research Assistant</p>
               <p class="description">Department of Computer Science and Engineering.</br>Yuan Ze University</br>135 Yuan-Tung Road, Chung-Li, Taiwan
                 32003, R.O.C.</p>
-              <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
-              <a href="#rosdyana" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+              <a href="mailto:khanhlee87@gmail.com" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
+              <a href="http://fb.com/khanhleedl" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
             </div>
           </div>
           <div class="col-md-6">
@@ -86,8 +86,8 @@
               <p class="description">Department of Computer Science and Engineering.</br>Yuan Ze University</br>135 Yuan-Tung Road, Chung-Li, Taiwan
                 32003, R.O.C.</p>
               <a href="mailto:rosdyana.kusuma@gmail.com" class="btn btn-info btn-icon btn-round"><i class="fa fa-envelope"></i></a>
-              <a href="https://www.linkedin.com/in/rosdyanakusuma/" class="btn btn-info btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
-              <a href="http://github.com/rosdyana/" class="btn btn-info btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/rosdyanakusuma/" class="btn btn-info btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
+              <a href="http://github.com/rosdyana/" class="btn btn-info btn-icon btn-round"><i class="fa fa-github"></i></a>
             </div>
           </div>
         </div>
