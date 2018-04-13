@@ -18,20 +18,28 @@
     <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/bg.png');">
     </div>
   </div>
-  <div class="section section-about-us">
+  <div class="section section-submission">
     <div class="container">
-      <div class="row">
-        <div class="col-md-8 ml-auto mr-auto text-center">
-          <h5 class="description"> <strong>Please cite!</strong> If you use DeepNAD-binder for research, please cite the following paper: xxxx". The
-            preprint is available on <a href="/">xxxx</a>. If you have any comments, corrections or questions please
-            <a href="{{ url('contact') }}">contact us</a>.</h5>
+      <div class="alert alert-info" role="alert">
+        <div class="container">
+          <div class="alert-icon">
+            <i class="now-ui-icons travel_info"></i>
+          </div>
+          <strong>Please cite!</strong> <br>If you use DeepATP for research, please cite the following paper: xxxx". The
+          preprint is available on <a href="/">xxxx</a>. If you have any comments, corrections or questions please
+          <a href="{{ url('contact') }}">contact us</a>.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">
+                          <i class="now-ui-icons ui-1_simple-remove"></i>
+                      </span>
+                  </button>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12">
           <div class="panel panel-info">
             <div class="panel-heading">
-              <h3 class="panel-title">Submission</h3>
+              <h5 class="panel-title">Submission</h5>
               <p>This server allows the submission of sequence in fasta format (we also give you the fasta file example).
                 <br>The user can choose two options to submit, including paste the sequence into text area or upload sequences
                 file
@@ -82,16 +90,13 @@
             <br>
             <p><b>Sample fasta Sequence(s)</b></p>
             <pre>
-<b>&gt;sp|P51149|RAB7A_HUMAN Ras-related protein Rab-7a OS=Homo sapiens GN=RAB7A PE=1 SV=1
-MTSRKKVLLKVIILGDSGVGKTSLMNQYVNKKFSNQYKATIGADFLTKEVMVDDRLVTMQ
-IWDTAGQERFQSLGVAFYRGADCCVLVFDVTAPNTFKTLDSWRDEFLIQASPRDPENFPF
-VVLGNKIDLENRQVATKRAQAWCYSKNNIPYFETSAKEAINVEQAFQTIARNALKQETEV
-ELYNEFPEPIKLDKNDRAKASAESCSC
-<b>&gt;sp|P62491|RB11A_HUMAN Ras-related protein Rab-11A OS=Homo sapiens GN=RAB11A PE=1 SV=3
-MGTRDDEYDYLFKVVLIGDSGVGKSNLLSRFTRNEFNLESKSTIGVEFATRSIQVDGKTI
-KAQIWDTAGQERYRAITSAYYRGAVGALLVYDIAKHLTYENVERWLKELRDHADSNIVIM
-LVGNKSDLRHLRAVPTDEARAFAEKNGLSFIETSALDSTNVEAAFQTILTEIYRIVSQKQ
-MSDRRENDMSPSNNVVPIHVPPTTENKPKVQCCQNI
+<b>&gt;sp|O05617|VANB_PSEUH Vanillate O-demethylase oxidoreductase OS=Pseudomonas sp. (strain HR199 / DSM 7063) GN=vanB PE=3 SV=1
+MIEVIISAMRLVAQDIISLEFVRADGGLLPPVEAGAHVDVHLPGGLIRQYSLWNQPGAQS
+HYCIGVLKDPASRGGSKAVHENLRVGMRVQISEPRNLFPLEEGVERSLLFAGGIGITPIL
+CMAQELAAREQDFELHYCARSTDRAAFVEWLKVCDFADHVRFHFDNGPDQQKLNAAALLA
+AEAEGTHLYVCGPGGFMGHVLDTAKEQGWADNRLHREYFAAAPNVSADDGSFEVRIHSTG
+QVLQVPADQTVSQVLDAAGIIVPVSCEQGICGTCITRVVDGEPDHRDFFLTDAEKAKNDQ
+FTPCCSRAKSACLVLDL
 </pre>
           </div>
         </div>

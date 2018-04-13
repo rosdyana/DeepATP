@@ -62,7 +62,7 @@
 <script type="text/javascript">
     setTimeout(function(){
         window.location.reload(1);
-    }, 10000);
+    }, 15000);
 
 </script>
 @endif 
