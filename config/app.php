@@ -13,7 +13,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => 'Deep-Efflux',
+    'description' => 'A web server for Identifying Family of Efflux Proteins in Transporters using Convolutional Neural Networks Model.',
+    'keywords' => 'deep learning, prediction, classification, bioinformatic',
 
     /*
     |--------------------------------------------------------------------------
@@ -167,6 +169,7 @@ return [
         /*
          * Package Service Providers...
          */
+         Laravel\Tinker\TinkerServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -7,20 +7,21 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class TaskFinish extends Mailable
+class SubmitTask extends Mailable
 {
     use Queueable, SerializesModels;
 
-    private $task;
-
+    protected $id;
+    protected $name;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct(\App\Models\Task $task)
+    public function __construct($id,$name)
     {
-        $this->task = $task;
+      $this->id = $id;
+      $this->name = $name;
     }
 
     /**
@@ -30,7 +31,9 @@ class TaskFinish extends Mailable
      */
     public function build()
     {
-        $task = $this->task;
-        return $this->markdown('emails.finish',compact('task'));
+        return $this->markdown('emails.submit',[
+          'id' => $this->id,
+          'name' => $this->name
+        ]);
     }
 }
