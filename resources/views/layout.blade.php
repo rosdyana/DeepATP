@@ -39,7 +39,7 @@
       </div>
       <div class="navbar-translate">
         <a class="navbar-brand" href="{{ url('/') }}">
-        <i class="fa fa-codepen"></i>DeepNAD-Binder
+        <i class="fa fa-codepen"></i> Deep ATP
                 </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -81,9 +81,6 @@
 </body>
 <footer class="footer footer-default">
   <div class="container">
-    <nav>
-      If you have any comments, corrections or questions contact <a href="mailto:khucnam@yahoo.com">Nguyen-Trinh Trung-Duong</a>
-    </nav>
     <div class="copyright">
       &copy;
       <script>

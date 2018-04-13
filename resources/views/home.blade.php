@@ -6,8 +6,8 @@
   </div>
   <div class="container">
     <div class="content-center">
-      <h1 class="title">Welcome to DeepNAD-Binder,</h1>
-      <h2 class="title">a webserver to predict NAD binding sites in electron transport porteins using 2D CNN and PSSM.</h2>
+      <h1 class="title">Welcome to DeepATP,</h1>
+      <h2 class="title">a webserver to predict ATP binding sites in electron transport porteins using 2D CNN and PSSM.</h2>
       <div class="text-center">
         <a href="{{ url('submission') }}" class="btn btn-info btn-round btn-lg"><i>Submit your proteins</i></a>
       </div>
@@ -16,7 +16,6 @@
 </div>
 <div class="section section-home">
   <div class="container">
-    <div class="separator separator-info"></div>
     <div class="section-story-overview">
       <div class="row">
         <h3>Introduction</h3>
