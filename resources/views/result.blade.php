@@ -17,7 +17,7 @@
                     <p class="text-muted">
                         <b>Submitter:</b> {{ $task->name }}<br>
                         <b>Email:</b> {{ $task->email }} <br>
-                        <b>Submitted time:</b> {{ $task->created_at }}
+                        <b>Status:</b> {{ $task->status }}
                     </p>
                     <table class="table is-bordered">
                         <thead>
@@ -58,12 +58,7 @@
     </div>
 </div>
 @endsection
- @push('js') @if ($task->status == 'queue')
-<script type="text/javascript">
-    setTimeout(function(){
-        window.location.reload(1);
-    }, 15000);
-
-</script>
-@endif 
-@endpush
+ 
+@section('meta_tags') @if ($task->status == 'queue')
+<meta http-equiv="refresh" content="15" /> @endif
+@endsection

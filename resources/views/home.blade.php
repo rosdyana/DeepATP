@@ -7,7 +7,7 @@
   <div class="container">
     <div class="content-center">
       <h1 class="title">Welcome to DeepATP,</h1>
-      <h2 class="title">a webserver to predict ATP binding sites in electron transport porteins using 2D CNN and PSSM.</h2>
+      <h2 class="title">a webserver to predict ATP Binding Sites in Membrane Proteins Using 2D Convolutional Neural Network .</h2>
       <div class="text-center">
         <a href="{{ url('submission') }}" class="btn btn-info btn-round btn-lg"><i>Submit your proteins</i></a>
       </div>
@@ -18,23 +18,20 @@
   <div class="container">
     <div class="section-story-overview">
       <div class="row">
-        <h3>Introduction</h3>
-        <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue
-          whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of
-          the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds
-          of natural reasons, there’s huge variety of the state of the ice.
+        <h3>Motivation</h3>
+        <p align="justify">Membrane proteins are the most important drug target accounting for around 30% proteins in genomes of living organisms.
+          One of the important roles of this protein type is to bind with adenosine triphosphate (ATP). This facilitates
+          some crucial biological processes such as metabolism and cell signalling. Many researchers have paid significant
+          attention to elucidating the localization of ATP-binding sites with much progress. However, such researchs on membrane
+          proteins were limited. We are one of the pioneers in using deep learning approach for identifying ATP-binding sites.
+          Our predictor, DeepATP, conbined evolutionary information in the form of Position-Specific Scoring Matrix and 2D
+          Convolutional Neural Network to predict these interacting sites in membrane proteins. Random over-sampling was
+          used to solved the imbalanced data learning problem.
         </p>
-        <h3>Method</h3>
-        <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue
-          whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of
-          the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds
-          of natural reasons, there’s huge variety of the state of the ice.
-        </p>
-        <h3>Dataset</h3>
-        <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue
-          whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of
-          the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds
-          of natural reasons, there’s huge variety of the state of the ice.
+        <h3>Results</h3>
+        <p align="justify">On the independent test, DeepATP can obtain a MCC of 0.79 and an AUC of 93%. Compared to some existing sequence-based
+          predictors and some traditional machine learning algorithms, our approach can improve the performance significantly.
+          We suggest this method as a reliable tools for biologists in predicting these binding site in membrane proteins.
         </p>
       </div>
     </div>

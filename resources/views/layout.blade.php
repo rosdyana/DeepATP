@@ -18,7 +18,7 @@
   <link href="{{ asset('assets/css/demo.css') }}" rel="stylesheet">
   <!--  Social tags      -->
   <meta name="keywords" content="{{ config('app.keywords') }}">
-  <meta name="description" content="{{ config('app.description') }}">
+  <meta name="description" content="{{ config('app.description') }}"> @yield('meta_tags')
 </head>
 
 <body class="landing-page sidebar-collapse">

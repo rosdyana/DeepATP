@@ -11,16 +11,15 @@ class FinishTask extends Mailable
 {
     use Queueable, SerializesModels;
 
-    protected $task, $proteins;
+    protected $task;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($task,$proteins)
+    public function __construct($task)
     {
       $this->task = $task;
-      $this->proteins = $proteins;
     }
 
     /**
@@ -30,9 +29,8 @@ class FinishTask extends Mailable
      */
     public function build()
     {
-      return $this->view('emails.finish_task',[
-        'task' => $this->task,
-        'proteins' => $this->proteins
+      return $this->markdown('emails.finish',[
+        'task' => $this->task
       ]);
     }
 }

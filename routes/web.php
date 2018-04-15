@@ -46,3 +46,9 @@ Route::post('/contact',function(Request $request){
 // Route::post('/contact', 'HomeController@contactus');
 
 Route::post('/submission', 'HomeController@postSubmit');
+
+Route::get('/finish/{id}', function ($id) {
+    $task = \DB::table('tasks')->where('id',$id)->first();
+    \Mail::to($task->email)->send(new App\Mail\FinishTask($task));
+    return 'ok';
+  });
